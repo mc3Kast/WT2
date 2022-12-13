@@ -13,6 +13,10 @@ public class Laptop extends Appliance{
 	public double cpu;
 	public int displayInchs;
 
+	
+	/** 
+	 * @return String
+	 */
 	@Override
 	public String toString() {
 		return String.format("Laptop: BATTERY_CAPACITY=%.1f, OS=%s, MEMORY_ROM=%d, SYSTEM_MEMORY=%d, CPU=%.1f, DISPLAY_INCHS=%d",

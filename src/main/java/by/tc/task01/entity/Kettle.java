@@ -11,6 +11,10 @@ public class Kettle extends Appliance{
 	public int Width;
 	public int cordLength;
 
+	
+	/** 
+	 * @return String
+	 */
 	@Override
 	public String toString() {
 		return String.format("Kettle : POWER_CONSUMPTION=%d, Height=%d, Width=%s, CORD_LENGTH=%d",

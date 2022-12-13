@@ -13,6 +13,10 @@ public class TabletPC extends Appliance{
     public int flashMemoryCapacity;
     public ColorType color;
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return String.format("TabletPC : BATTERY_CAPACITY=%d, DISPLAY_INCHES=%d, MEMORY_ROM=%d, FLASH_MEMORY_CAPACITY=%d, COLOR=%s",

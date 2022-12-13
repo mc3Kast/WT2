@@ -13,6 +13,10 @@ public class Refrigerator extends Appliance{
 	public double height;
 	public double width;
 
+	
+	/** 
+	 * @return String
+	 */
 	@Override
 	public String toString() {
 		return String.format("Refrigerator : POWER_CONSUMPTION=%d, WEIGHT=%d, FREEZER_CAPACITY=%d, OVERALL_CAPACITY=%.1f, HEIGHT=%.1f, WIDTH=%.1f",

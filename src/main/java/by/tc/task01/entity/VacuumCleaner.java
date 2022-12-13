@@ -14,6 +14,10 @@ public class VacuumCleaner extends Appliance{
 	public int motorSpeedRegulation;
 	public int cleaningWidth;
 
+	
+	/** 
+	 * @return String
+	 */
 	@Override
 	public String toString() {
 		return String.format("VacuumCleaner : POWER_CONSUMPTION=$d, FILTER_TYPE=%c, BAG_TYPE=%s, WAND_TYPE=%s, MOTOR_SPEED_REGULATION=%d, CLEANING_WIDTH=%d",

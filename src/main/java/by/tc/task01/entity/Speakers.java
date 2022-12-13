@@ -11,6 +11,10 @@ public class Speakers extends Appliance{
 	public String frequencyRange;
 	public int cordLength;
 
+	
+	/** 
+	 * @return String
+	 */
 	@Override
 	public String toString() {
 		return String.format("Speakers : POWER_CONSUMPTION=%d, NUMBER_OF_SPEAKERS=%d, FREQUENCY_RANGE=%s, CORD_LENGTH=%d",

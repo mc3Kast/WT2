@@ -13,6 +13,10 @@ public class Oven extends Appliance{
 	public double height;
 	public double width;
 
+	
+	/** 
+	 * @return String
+	 */
 	@Override
 	public String toString() {
 		return String.format("Oven : POWER_CONSUMPTION=%d, WEIGHT=%d, CAPACITY=%d, DEPTH=%d, HEIGHT=%.1f, WIDTH=%.1f",
